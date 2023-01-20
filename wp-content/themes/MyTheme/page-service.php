@@ -27,7 +27,7 @@ get_header();
     </div>
     <div class="container" id="anchor4">
 
-        <p> <?php the_title(); ?></p>
+        <p> <?php the_post_(); ?></p>
         <div class="triangle"></div>
         <div class="content-sevice-text">
             Our clients are at the forefront of energy transition and innovation. Their task is complex: balance reliability and cost effectiveness with new customer demands, investment decisions, decarbonization goals and an evolving menu of

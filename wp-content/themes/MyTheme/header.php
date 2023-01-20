@@ -60,7 +60,7 @@
 		</div>
 		<header>
 			<div class="container" id="anchor1">
-				<a href="" class="logo"><img src="assets/images/Group.svg" alt=""></a>
+				<a href="" class="logo"><img src="../images/icon.png" alt=""></a>
 
 				<div class="hamburger-menu">
 					<input id="menu__toggle" type="checkbox" />
@@ -68,7 +68,7 @@
 						<span></span>
 					</label>
 					<ul class="menu__box">
-						<li><a href="#anchor1" onclick="slowScroll('#anchor1')" class="menu__item"><img src="img/logo2.png" alt=""></a></li>
+						<li><a href="#anchor1" onclick="slowScroll('#anchor1')" class="menu__item"><img src="/assets/images//logo2.png" alt=""></a></li>
 						<li><a href="#content" onclick="slowScroll('#content')" class="menu__item">About</a></li>
 						<li><a href="#content-service" onclick="slowScroll('#content-service')" class="menu__item">Sevices</a></li>
 						<li><a href="#content-contact" onclick="slowScroll('#content-contact')" class="menu__item">Contact</a></li>
@@ -86,11 +86,9 @@
 
 			<div class="container">
 				<div class="inner">
-					<h1>Marvel Power Group </h1>
+					<h1><?php the_title() ?> </h1>
 					<div class="description">
-						Marvel Power Group is a boutique consulting firm with a fresh, markets-based approach to value
-						creation. We offer services to clients in energy, water, manufacturing and transportation
-						sectors.
+						<?php the_content(); ?>
 					</div>
 					<a href="#" class="btn">Contact Us</a>
 				</div>

@@ -43,7 +43,7 @@
 	
 	<link rel="stylesheet" href="css/adaptive.css">
 	<link rel="stylesheet" href="css/main.css">-->
-	<script src="libs/jquery.fancybox.min.js"></script>
+	<script src="../assets/libs/jquery.fancybox.min.js"></script>
 	<script src="libs/jquery/dist/jquery.min.js"></script>
 	<link rel="stylesheet" href="fonts/Alata-Regular.ttf">
 	<script src="/src/js/common.js"></script> 

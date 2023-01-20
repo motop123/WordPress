@@ -32,7 +32,8 @@ get_header();
             <div class="triangle"></div>
             <br><br>
             <div class="p_container">
-                <img src="img/2438 2.jpg" alt="img" class="img-class">
+                <img src="<?php echo pods_field_display( 'img-aboutus' ); ?>">
+                
                 <p>
                     <?php
                     echo get_post_meta(get_the_ID(), 'zinur', true);
