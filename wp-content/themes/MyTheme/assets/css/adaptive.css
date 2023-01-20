@@ -1,0 +1,289 @@
+/*==========  Desktop First  ========== */
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1800px) {
+  #main .inner>h1 {
+    font-size: 105px;
+  }
+
+  #content .inner_content h2 {
+    font-size: 80px;
+  }
+
+
+  .navigation-page {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    margin-left: 93%;
+    margin-top: 15%;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+
+  }
+  .navigation-page2 {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    margin-left: 91%;
+    margin-top: 25%;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #main .inner>h1 {
+    font-size: 115px;
+  }
+
+  #content .inner_content h2 {
+    font-size: 90px;
+  }
+
+
+  .navigation-page {
+    position: fixed;
+    width: 200px;
+    height: 100px;
+    margin-left: 87%;
+    margin-top: 20%;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+
+  }
+  .navigation-page2 {
+    position: fixed;
+    width: 200px;
+    height: 100px;
+    margin-left: 87%;
+    margin-top: 20%;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 993px) {
+  #main .inner>h1 {
+    font-size: 80px;
+  }
+
+  #content {
+    text-align: justify;
+  }
+
+  #content .inner_content h2 {
+    font-size: 60px;
+  }
+
+  .p_container {
+    display: block;
+    width: 80%;
+    justify-content: center;
+  }
+
+  .p_container img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #content .inner_content p {
+    font-size: 14px;
+    line-height: 26px;
+    align-items: center;
+    color: #0B0D21;
+    margin: 0;
+  }
+
+  #content-contact {
+    display: block;
+  }
+
+  #content-contact .container {
+    display: block;
+    justify-content: center;
+
+  }
+
+  .form {
+    font-size: 30px;
+  }
+
+  #content-contact p {
+    font-size: 60px;
+    line-height: 100px;
+  }
+
+  .content-contact-text h1 {
+    font-size: 30px;
+    line-height: 42px;
+  }
+
+  .content-contact-text h2 {
+
+    font-size: 30px;
+
+  }
+
+  .navigation-page {
+    display: none;
+  }
+
+  .navigation-page2 {
+    display: none;
+  }
+
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  header .container {
+    position: relative;
+  }
+
+  #main .inner>h1 {
+    font-size: 60px;
+  }
+
+  .mnu_top {
+    display: none;
+  }
+
+  .menu__btn {
+    display: block;
+  }
+
+  .p_container {
+    display: block
+  }
+
+  #content .inner_content p {
+    font-size: 14px;
+    line-height: 26px;
+    align-items: center;
+
+    color: #0B0D21;
+    margin: 0;
+  }
+
+  .p_container img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #content-service {
+    padding: 50px 0;
+    height: 100%;
+  }
+
+  #content-contact {
+    display: block;
+
+  }
+
+  #content-contact .container {
+    display: block;
+    justify-content: center;
+
+  }
+
+  .form {
+    font-size: 30px;
+  }
+
+  #content-contact p {
+    font-size: 60px;
+    line-height: 100px;
+  }
+
+  .content-contact-text h1 {
+    font-size: 30px;
+    line-height: 42px;
+  }
+
+  .content-contact-text h2 {
+
+    font-size: 25px;
+
+  }
+
+  .ul-container {
+    display: block;
+  }
+
+  #content-service {
+    padding: 50px 0;
+    padding-bottom: 1300px;
+  }
+
+  #content-service p {
+    top: 0;
+    font-family: 'Alata';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 40px;
+  }
+
+  .ul-elements h2 {
+    font-size: 20px;
+    line-height: 42px;
+    font-weight: 600;
+    flex-grow: 0;
+    color: #000000;
+    padding: 0;
+  }
+
+  .ul-elements li {
+
+    display: block;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    /* or 111% */
+    color: #0B0D21;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  /* */
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /* */
+}
+
+/*==========  Mobile First  ========== */
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /* */
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /* */
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /* */
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /* */
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /* */
+}
